@@ -52,7 +52,7 @@ nav a:hover {
     animation: slideUp 1s ease-in-out;
 }
 
-.about, .projects, .contact {
+.about, .projects, .research, .contact {
     margin-bottom: 40px;
 }
 
@@ -87,6 +87,32 @@ h2 {
 }
 
 .project p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.research {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.research:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.research h3 {
+    margin: 0;
+    color: #007BFF;
+    font-size: 1.5rem;
+}
+
+.research p {
     margin: 10px 0;
     color: #555;
 }
@@ -169,6 +195,10 @@ footer p {
         font-size: 1.2rem;
     }
 
+    .research h3 {
+        font-size: 1.2rem;
+    }
+    
     .btn {
         width: 100%;
         text-align: center;
